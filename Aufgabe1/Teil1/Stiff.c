@@ -11,7 +11,7 @@
 #include <chplot.h>
 #include <math.h>
 
-#define h 0.005
+#define h 0.001
 #define x_End 0.2
 
 double Ableitung(double x, double y){
@@ -36,8 +36,8 @@ int main() {
 
 	class CPlot plot0, plot1;
 	
-	plot0.title("Praktikum 1 - Teil 1 (h=0.005 ; xEnd = 0.2)");
-	plot1.title("Praktikum 1 - Teil 1 [Abweichungen] (h=0.005 ; xEnd = 0.2)");	
+	plot0.title("Praktikum 1 - Teil 1 (h=0.001 ; xEnd = 0.2)");
+	plot1.title("Praktikum 1 - Teil 1 [Abweichungen] (h=0.001 ; xEnd = 0.2)");	
 		
 	// Init
 	xEulerExpl[0]=0;
