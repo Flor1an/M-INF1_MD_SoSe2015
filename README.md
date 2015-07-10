@@ -16,3 +16,7 @@ Modellierung dynamischer Systeme
 ###A3 (Modellierung hybrider Systeme mit Stateflow)
 1. Start einer zweistufigen Rakete
 2. Simulation eines schiefen Flippers
+
+
+###A4 (Regelung dynamischer Systeme)
+1. Regler für Schwebekugel
